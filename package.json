@@ -1,0 +1,22 @@
+{
+  "name": "moodesty-backend",
+  "version": "1.0.0",
+  "description": "backend for moodesty",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "nodemon app"
+  },
+  "author": "Adhy F. Khoirot",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
